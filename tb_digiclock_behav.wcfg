@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<wave_config>
+   <wave_state>
+   </wave_state>
+   <db_ref_list>
+      <db_ref path="tb_digiclock_behav.wdb" id="1">
+         <top_modules>
+            <top_module name="glbl" />
+            <top_module name="tb_digiclock" />
+         </top_modules>
+      </db_ref>
+   </db_ref_list>
+   <zoom_setting>
+      <ZoomStartTime time="784493333fs"></ZoomStartTime>
+      <ZoomEndTime time="963493334fs"></ZoomEndTime>
+      <Cursor1Time time="933660000fs"></Cursor1Time>
+   </zoom_setting>
+   <column_width_setting>
+      <NameColumnWidth column_width="175"></NameColumnWidth>
+      <ValueColumnWidth column_width="60"></ValueColumnWidth>
+   </column_width_setting>
+   <WVObjectSize size="15" />
+   <wvobject fp_name="/tb_digiclock/clk" type="logic">
+      <obj_property name="ElementShortName">clk</obj_property>
+      <obj_property name="ObjectShortName">clk</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_digiclock/reset" type="logic">
+      <obj_property name="ElementShortName">reset</obj_property>
+      <obj_property name="ObjectShortName">reset</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_digiclock/enable" type="logic">
+      <obj_property name="ElementShortName">enable</obj_property>
+      <obj_property name="ObjectShortName">enable</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_digiclock/q1" type="array">
+      <obj_property name="ElementShortName">q1[3:0]</obj_property>
+      <obj_property name="ObjectShortName">q1[3:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_digiclock/q2" type="array">
+      <obj_property name="ElementShortName">q2[3:0]</obj_property>
+      <obj_property name="ObjectShortName">q2[3:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_digiclock/q3" type="array">
+      <obj_property name="ElementShortName">q3[3:0]</obj_property>
+      <obj_property name="ObjectShortName">q3[3:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_digiclock/q4" type="array">
+      <obj_property name="ElementShortName">q4[3:0]</obj_property>
+      <obj_property name="ObjectShortName">q4[3:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_digiclock/unit_hour" type="array">
+      <obj_property name="ElementShortName">unit_hour[3:0]</obj_property>
+      <obj_property name="ObjectShortName">unit_hour[3:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_digiclock/ten_hour" type="array">
+      <obj_property name="ElementShortName">ten_hour[3:0]</obj_property>
+      <obj_property name="ObjectShortName">ten_hour[3:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_digiclock/seg0" type="array">
+      <obj_property name="ElementShortName">seg0[6:0]</obj_property>
+      <obj_property name="ObjectShortName">seg0[6:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_digiclock/seg1" type="array">
+      <obj_property name="ElementShortName">seg1[6:0]</obj_property>
+      <obj_property name="ObjectShortName">seg1[6:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_digiclock/seg2" type="array">
+      <obj_property name="ElementShortName">seg2[6:0]</obj_property>
+      <obj_property name="ObjectShortName">seg2[6:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_digiclock/seg3" type="array">
+      <obj_property name="ElementShortName">seg3[6:0]</obj_property>
+      <obj_property name="ObjectShortName">seg3[6:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_digiclock/seg4" type="array">
+      <obj_property name="ElementShortName">seg4[6:0]</obj_property>
+      <obj_property name="ObjectShortName">seg4[6:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_digiclock/seg5" type="array">
+      <obj_property name="ElementShortName">seg5[6:0]</obj_property>
+      <obj_property name="ObjectShortName">seg5[6:0]</obj_property>
+   </wvobject>
+</wave_config>
