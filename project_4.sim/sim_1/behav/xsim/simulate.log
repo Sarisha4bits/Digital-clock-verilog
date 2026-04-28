@@ -1,6 +1,0 @@
-Vivado Simulator 2018.2
-Time resolution is 1 ps
-TB STARTED
-PASS:             Reset Initialization --> 00:00:00
-PASS:              00:00:09 ? 00:00:10 --> 00:00:10
-PASS:              00:00:59 ? 00:01:00 --> 00:01:00
