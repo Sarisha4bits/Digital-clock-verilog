@@ -108,7 +108,13 @@ ALL TESTS PASSED
 ```
 
 Simulation was performed using Xilinx Vivado XSim.
+## Simulation Results
 
+### Rollover Verification: 59 to 00
+
+The waveform below shows the seconds counter rolling over from 59 to 00. At the same transition, the minutes counter increments from 0 to 1, confirming correct carry propagation between counters.
+
+![Rollover](docs/rollover_59_to_00.png)
 ---
 
 ## Project Structure
